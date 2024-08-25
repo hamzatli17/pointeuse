@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!-- Automatically generated file. DO NOT MODIFY -->
+
+    <!-- Value from product flavor: development -->
+    <string name="app_name" translatable="false">myApp(development)</string>
+    <!-- Value from default config. -->
+    <integer name="react_native_dev_server_port">8081</integer>
+    <!-- Value from default config. -->
+    <integer name="react_native_inspector_proxy_port">8081</integer>
+    <!-- Value from default config. -->
+    <string name="build_config_package" translatable="false">com.myapp</string>
+    <!-- Value from default config. -->
+    <string name="env" translatable="false">"development"</string>
+    <!-- Value from default config. -->
+    <string name="server_url" translatable="false">"10.0.2.2"</string>
+
+</resources>

@@ -1,0 +1,244 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.myapp"
+4    android:versionCode="1"
+5    android:versionName="1.0-development" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="21"
+9        android:targetSdkVersion="34" />
+10
+11    <uses-permission android:name="android.permission.SYSTEM_ALERT_WINDOW" />
+11-->/Users/lebackyard/Documents/pt/android/app/src/debug/AndroidManifest.xml:5:5-77
+11-->/Users/lebackyard/Documents/pt/android/app/src/debug/AndroidManifest.xml:5:22-75
+12    <uses-permission android:name="android.permission.INTERNET" />
+12-->/Users/lebackyard/Documents/pt/android/app/src/main/AndroidManifest.xml:3:5-67
+12-->/Users/lebackyard/Documents/pt/android/app/src/main/AndroidManifest.xml:3:22-64
+13    <uses-permission android:name="android.permission.CAMERA" />
+13-->/Users/lebackyard/Documents/pt/android/app/src/main/AndroidManifest.xml:4:5-64
+13-->/Users/lebackyard/Documents/pt/android/app/src/main/AndroidManifest.xml:4:22-62
+14    <uses-permission android:name="android.permission.READ_MEDIA_IMAGES" />
+14-->/Users/lebackyard/Documents/pt/android/app/src/main/AndroidManifest.xml:5:5-76
+14-->/Users/lebackyard/Documents/pt/android/app/src/main/AndroidManifest.xml:5:22-73
+15    <uses-permission android:name="android.permission.READ_MEDIA_VIDEO" />
+15-->/Users/lebackyard/Documents/pt/android/app/src/main/AndroidManifest.xml:5:77-147
+15-->/Users/lebackyard/Documents/pt/android/app/src/main/AndroidManifest.xml:5:94-144
+16    <uses-permission
+16-->/Users/lebackyard/Documents/pt/android/app/src/main/AndroidManifest.xml:5:148-250
+17        android:name="android.permission.READ_EXTERNAL_STORAGE"
+17-->/Users/lebackyard/Documents/pt/android/app/src/main/AndroidManifest.xml:5:165-220
+18        android:maxSdkVersion="32" />
+18-->/Users/lebackyard/Documents/pt/android/app/src/main/AndroidManifest.xml:5:221-247
+19    <uses-permission
+19-->/Users/lebackyard/Documents/pt/android/app/src/main/AndroidManifest.xml:6:5-108
+20        android:name="android.permission.WRITE_EXTERNAL_STORAGE"
+20-->/Users/lebackyard/Documents/pt/android/app/src/main/AndroidManifest.xml:6:22-78
+21        android:maxSdkVersion="29" />
+21-->/Users/lebackyard/Documents/pt/android/app/src/main/AndroidManifest.xml:6:79-105
+22
+23    <uses-feature
+23-->/Users/lebackyard/Documents/pt/android/app/src/main/AndroidManifest.xml:7:5-85
+24        android:name="android.hardware.camera"
+24-->/Users/lebackyard/Documents/pt/android/app/src/main/AndroidManifest.xml:7:19-57
+25        android:required="false" />
+25-->/Users/lebackyard/Documents/pt/android/app/src/main/AndroidManifest.xml:7:58-82
+26    <uses-feature
+26-->/Users/lebackyard/Documents/pt/android/app/src/main/AndroidManifest.xml:8:5-91
+27        android:name="android.hardware.camera.front"
+27-->/Users/lebackyard/Documents/pt/android/app/src/main/AndroidManifest.xml:8:19-63
+28        android:required="false" />
+28-->/Users/lebackyard/Documents/pt/android/app/src/main/AndroidManifest.xml:8:64-88
+29
+30    <queries>
+30-->[:react-native-image-crop-picker] /Users/lebackyard/Documents/pt/node_modules/react-native-image-crop-picker/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:7:5-11:15
+31        <intent>
+31-->[:react-native-image-crop-picker] /Users/lebackyard/Documents/pt/node_modules/react-native-image-crop-picker/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:8:9-10:18
+32            <action android:name="android.media.action.IMAGE_CAPTURE" />
+32-->[:react-native-image-crop-picker] /Users/lebackyard/Documents/pt/node_modules/react-native-image-crop-picker/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:9:13-73
+32-->[:react-native-image-crop-picker] /Users/lebackyard/Documents/pt/node_modules/react-native-image-crop-picker/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:9:21-70
+33        </intent>
+34    </queries>
+35
+36    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" /> <!-- Required by older versions of Google Play services to create IID tokens -->
+36-->[com.facebook.flipper:flipper:0.201.0] /Users/lebackyard/.gradle/caches/transforms-3/9b2c28bd5719adb7e465469e2ca76c12/transformed/jetified-flipper-0.201.0/AndroidManifest.xml:14:5-76
+36-->[com.facebook.flipper:flipper:0.201.0] /Users/lebackyard/.gradle/caches/transforms-3/9b2c28bd5719adb7e465469e2ca76c12/transformed/jetified-flipper-0.201.0/AndroidManifest.xml:14:22-73
+37    <uses-permission android:name="com.google.android.c2dm.permission.RECEIVE" />
+37-->[com.google.android.gms:play-services-iid:17.0.0] /Users/lebackyard/.gradle/caches/transforms-3/7d00a3d973e62c64256363b4cb614082/transformed/jetified-play-services-iid-17.0.0/AndroidManifest.xml:23:5-82
+37-->[com.google.android.gms:play-services-iid:17.0.0] /Users/lebackyard/.gradle/caches/transforms-3/7d00a3d973e62c64256363b4cb614082/transformed/jetified-play-services-iid-17.0.0/AndroidManifest.xml:23:22-79
+38
+39    <permission
+39-->[androidx.core:core:1.9.0] /Users/lebackyard/.gradle/caches/transforms-3/13659b94c66de92d98d7f8af61234b95/transformed/core-1.9.0/AndroidManifest.xml:22:5-24:47
+40        android:name="com.myapp.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION"
+40-->[androidx.core:core:1.9.0] /Users/lebackyard/.gradle/caches/transforms-3/13659b94c66de92d98d7f8af61234b95/transformed/core-1.9.0/AndroidManifest.xml:23:9-81
+41        android:protectionLevel="signature" />
+41-->[androidx.core:core:1.9.0] /Users/lebackyard/.gradle/caches/transforms-3/13659b94c66de92d98d7f8af61234b95/transformed/core-1.9.0/AndroidManifest.xml:24:9-44
+42
+43    <uses-permission android:name="com.myapp.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION" />
+43-->[androidx.core:core:1.9.0] /Users/lebackyard/.gradle/caches/transforms-3/13659b94c66de92d98d7f8af61234b95/transformed/core-1.9.0/AndroidManifest.xml:26:5-97
+43-->[androidx.core:core:1.9.0] /Users/lebackyard/.gradle/caches/transforms-3/13659b94c66de92d98d7f8af61234b95/transformed/core-1.9.0/AndroidManifest.xml:26:22-94
+44    <uses-permission android:name="com.google.android.finsky.permission.BIND_GET_INSTALL_REFERRER_SERVICE" />
+44-->[com.android.installreferrer:installreferrer:1.1.2] /Users/lebackyard/.gradle/caches/transforms-3/7347c325151bfcdf75aa8769efa26987/transformed/jetified-installreferrer-1.1.2/AndroidManifest.xml:9:5-110
+44-->[com.android.installreferrer:installreferrer:1.1.2] /Users/lebackyard/.gradle/caches/transforms-3/7347c325151bfcdf75aa8769efa26987/transformed/jetified-installreferrer-1.1.2/AndroidManifest.xml:9:22-107
+45
+46    <application
+46-->/Users/lebackyard/Documents/pt/android/app/src/main/AndroidManifest.xml:10:5-30:19
+47        android:name="com.myapp.MainApplication"
+47-->/Users/lebackyard/Documents/pt/android/app/src/main/AndroidManifest.xml:11:7-38
+48        android:allowBackup="false"
+48-->/Users/lebackyard/Documents/pt/android/app/src/main/AndroidManifest.xml:16:7-34
+49        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+49-->[androidx.core:core:1.9.0] /Users/lebackyard/.gradle/caches/transforms-3/13659b94c66de92d98d7f8af61234b95/transformed/core-1.9.0/AndroidManifest.xml:28:18-86
+50        android:debuggable="true"
+51        android:extractNativeLibs="true"
+51-->/Users/lebackyard/Documents/pt/android/app/src/main/AndroidManifest.xml:14:7-39
+52        android:icon="@mipmap/ic_launcher"
+52-->/Users/lebackyard/Documents/pt/android/app/src/main/AndroidManifest.xml:13:7-41
+53        android:label="@string/app_name"
+53-->/Users/lebackyard/Documents/pt/android/app/src/main/AndroidManifest.xml:12:7-39
+54        android:roundIcon="@mipmap/ic_launcher_round"
+54-->/Users/lebackyard/Documents/pt/android/app/src/main/AndroidManifest.xml:15:7-52
+55        android:testOnly="true"
+56        android:theme="@style/BootTheme"
+56-->/Users/lebackyard/Documents/pt/android/app/src/main/AndroidManifest.xml:17:7-39
+57        android:usesCleartextTraffic="true" >
+57-->/Users/lebackyard/Documents/pt/android/app/src/debug/AndroidManifest.xml:8:9-44
+58        <activity
+58-->/Users/lebackyard/Documents/pt/android/app/src/debug/AndroidManifest.xml:11:9-111
+59            android:name="com.facebook.react.devsupport.DevSettingsActivity"
+59-->/Users/lebackyard/Documents/pt/android/app/src/debug/AndroidManifest.xml:11:19-83
+60            android:exported="false" />
+60-->/Users/lebackyard/Documents/pt/android/app/src/debug/AndroidManifest.xml:11:84-108
+61        <activity
+61-->/Users/lebackyard/Documents/pt/android/app/src/main/AndroidManifest.xml:18:7-29:18
+62            android:name="com.myapp.MainActivity"
+62-->/Users/lebackyard/Documents/pt/android/app/src/main/AndroidManifest.xml:19:9-37
+63            android:configChanges="keyboard|keyboardHidden|orientation|screenLayout|screenSize|smallestScreenSize|uiMode"
+63-->/Users/lebackyard/Documents/pt/android/app/src/main/AndroidManifest.xml:21:9-118
+64            android:exported="true"
+64-->/Users/lebackyard/Documents/pt/android/app/src/main/AndroidManifest.xml:24:9-32
+65            android:label="@string/app_name"
+65-->/Users/lebackyard/Documents/pt/android/app/src/main/AndroidManifest.xml:20:9-41
+66            android:launchMode="singleTask"
+66-->/Users/lebackyard/Documents/pt/android/app/src/main/AndroidManifest.xml:22:9-40
+67            android:windowSoftInputMode="adjustResize" >
+67-->/Users/lebackyard/Documents/pt/android/app/src/main/AndroidManifest.xml:23:9-51
+68            <intent-filter>
+68-->/Users/lebackyard/Documents/pt/android/app/src/main/AndroidManifest.xml:25:9-28:25
+69                <action android:name="android.intent.action.MAIN" />
+69-->/Users/lebackyard/Documents/pt/android/app/src/main/AndroidManifest.xml:26:13-65
+69-->/Users/lebackyard/Documents/pt/android/app/src/main/AndroidManifest.xml:26:21-62
+70
+71                <category android:name="android.intent.category.LAUNCHER" />
+71-->/Users/lebackyard/Documents/pt/android/app/src/main/AndroidManifest.xml:27:13-73
+71-->/Users/lebackyard/Documents/pt/android/app/src/main/AndroidManifest.xml:27:23-70
+72            </intent-filter>
+73        </activity>
+74
+75        <provider
+75-->[:react-native-image-crop-picker] /Users/lebackyard/Documents/pt/node_modules/react-native-image-crop-picker/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:16:9-24:20
+76            android:name="com.reactnative.ivpusic.imagepicker.IvpusicImagePickerFileProvider"
+76-->[:react-native-image-crop-picker] /Users/lebackyard/Documents/pt/node_modules/react-native-image-crop-picker/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:17:13-94
+77            android:authorities="com.myapp.provider"
+77-->[:react-native-image-crop-picker] /Users/lebackyard/Documents/pt/node_modules/react-native-image-crop-picker/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:18:13-60
+78            android:exported="false"
+78-->[:react-native-image-crop-picker] /Users/lebackyard/Documents/pt/node_modules/react-native-image-crop-picker/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:19:13-37
+79            android:grantUriPermissions="true" >
+79-->[:react-native-image-crop-picker] /Users/lebackyard/Documents/pt/node_modules/react-native-image-crop-picker/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:20:13-47
+80            <meta-data
+80-->[:react-native-image-crop-picker] /Users/lebackyard/Documents/pt/node_modules/react-native-image-crop-picker/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:21:13-23:78
+81                android:name="android.support.FILE_PROVIDER_PATHS"
+81-->[:react-native-image-crop-picker] /Users/lebackyard/Documents/pt/node_modules/react-native-image-crop-picker/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:22:17-67
+82                android:resource="@xml/ivpusic_imagepicker_provider_paths" />
+82-->[:react-native-image-crop-picker] /Users/lebackyard/Documents/pt/node_modules/react-native-image-crop-picker/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:23:17-75
+83        </provider>
+84
+85        <activity
+85-->[:react-native-image-crop-picker] /Users/lebackyard/Documents/pt/node_modules/react-native-image-crop-picker/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:26:9-28:72
+86            android:name="com.yalantis.ucrop.UCropActivity"
+86-->[:react-native-image-crop-picker] /Users/lebackyard/Documents/pt/node_modules/react-native-image-crop-picker/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:27:13-60
+87            android:theme="@style/Theme.AppCompat.Light.NoActionBar" />
+87-->[:react-native-image-crop-picker] /Users/lebackyard/Documents/pt/node_modules/react-native-image-crop-picker/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:28:13-69
+88
+89        <provider
+89-->[:react-native-webview] /Users/lebackyard/Documents/pt/node_modules/react-native-webview/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:8:9-16:20
+90            android:name="com.reactnativecommunity.webview.RNCWebViewFileProvider"
+90-->[:react-native-webview] /Users/lebackyard/Documents/pt/node_modules/react-native-webview/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:9:13-83
+91            android:authorities="com.myapp.fileprovider"
+91-->[:react-native-webview] /Users/lebackyard/Documents/pt/node_modules/react-native-webview/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:10:13-64
+92            android:exported="false"
+92-->[:react-native-webview] /Users/lebackyard/Documents/pt/node_modules/react-native-webview/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:11:13-37
+93            android:grantUriPermissions="true" >
+93-->[:react-native-webview] /Users/lebackyard/Documents/pt/node_modules/react-native-webview/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:12:13-47
+94            <meta-data
+94-->[:react-native-image-crop-picker] /Users/lebackyard/Documents/pt/node_modules/react-native-image-crop-picker/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:21:13-23:78
+95                android:name="android.support.FILE_PROVIDER_PATHS"
+95-->[:react-native-image-crop-picker] /Users/lebackyard/Documents/pt/node_modules/react-native-image-crop-picker/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:22:17-67
+96                android:resource="@xml/file_provider_paths" />
+96-->[:react-native-image-crop-picker] /Users/lebackyard/Documents/pt/node_modules/react-native-image-crop-picker/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:23:17-75
+97        </provider>
+98
+99        <meta-data
+99-->[com.github.bumptech.glide:okhttp3-integration:4.12.0] /Users/lebackyard/.gradle/caches/transforms-3/35e720805bb760c1d60f4c9e61c13954/transformed/jetified-okhttp3-integration-4.12.0/AndroidManifest.xml:11:9-13:43
+100            android:name="com.bumptech.glide.integration.okhttp3.OkHttpGlideModule"
+100-->[com.github.bumptech.glide:okhttp3-integration:4.12.0] /Users/lebackyard/.gradle/caches/transforms-3/35e720805bb760c1d60f4c9e61c13954/transformed/jetified-okhttp3-integration-4.12.0/AndroidManifest.xml:12:13-84
+101            android:value="GlideModule" />
+101-->[com.github.bumptech.glide:okhttp3-integration:4.12.0] /Users/lebackyard/.gradle/caches/transforms-3/35e720805bb760c1d60f4c9e61c13954/transformed/jetified-okhttp3-integration-4.12.0/AndroidManifest.xml:13:13-40
+102
+103        <activity
+103-->[com.google.android.gms:play-services-base:17.0.0] /Users/lebackyard/.gradle/caches/transforms-3/e853fdf1e0156c040588ca88cd821bd9/transformed/jetified-play-services-base-17.0.0/AndroidManifest.xml:23:9-26:75
+104            android:name="com.google.android.gms.common.api.GoogleApiActivity"
+104-->[com.google.android.gms:play-services-base:17.0.0] /Users/lebackyard/.gradle/caches/transforms-3/e853fdf1e0156c040588ca88cd821bd9/transformed/jetified-play-services-base-17.0.0/AndroidManifest.xml:24:13-79
+105            android:exported="false"
+105-->[com.google.android.gms:play-services-base:17.0.0] /Users/lebackyard/.gradle/caches/transforms-3/e853fdf1e0156c040588ca88cd821bd9/transformed/jetified-play-services-base-17.0.0/AndroidManifest.xml:25:13-37
+106            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+106-->[com.google.android.gms:play-services-base:17.0.0] /Users/lebackyard/.gradle/caches/transforms-3/e853fdf1e0156c040588ca88cd821bd9/transformed/jetified-play-services-base-17.0.0/AndroidManifest.xml:26:13-72
+107
+108        <meta-data
+108-->[com.google.android.gms:play-services-basement:17.0.0] /Users/lebackyard/.gradle/caches/transforms-3/f4982a588457462187a3ce8badf7ea0f/transformed/jetified-play-services-basement-17.0.0/AndroidManifest.xml:23:9-25:69
+109            android:name="com.google.android.gms.version"
+109-->[com.google.android.gms:play-services-basement:17.0.0] /Users/lebackyard/.gradle/caches/transforms-3/f4982a588457462187a3ce8badf7ea0f/transformed/jetified-play-services-basement-17.0.0/AndroidManifest.xml:24:13-58
+110            android:value="@integer/google_play_services_version" />
+110-->[com.google.android.gms:play-services-basement:17.0.0] /Users/lebackyard/.gradle/caches/transforms-3/f4982a588457462187a3ce8badf7ea0f/transformed/jetified-play-services-basement-17.0.0/AndroidManifest.xml:25:13-66
+111
+112        <provider
+112-->[androidx.emoji2:emoji2:1.2.0] /Users/lebackyard/.gradle/caches/transforms-3/faa3592d2fc203d6c74b9a5f601058a1/transformed/jetified-emoji2-1.2.0/AndroidManifest.xml:24:9-32:20
+113            android:name="androidx.startup.InitializationProvider"
+113-->[androidx.emoji2:emoji2:1.2.0] /Users/lebackyard/.gradle/caches/transforms-3/faa3592d2fc203d6c74b9a5f601058a1/transformed/jetified-emoji2-1.2.0/AndroidManifest.xml:25:13-67
+114            android:authorities="com.myapp.androidx-startup"
+114-->[androidx.emoji2:emoji2:1.2.0] /Users/lebackyard/.gradle/caches/transforms-3/faa3592d2fc203d6c74b9a5f601058a1/transformed/jetified-emoji2-1.2.0/AndroidManifest.xml:26:13-68
+115            android:exported="false" >
+115-->[androidx.emoji2:emoji2:1.2.0] /Users/lebackyard/.gradle/caches/transforms-3/faa3592d2fc203d6c74b9a5f601058a1/transformed/jetified-emoji2-1.2.0/AndroidManifest.xml:27:13-37
+116            <meta-data
+116-->[androidx.emoji2:emoji2:1.2.0] /Users/lebackyard/.gradle/caches/transforms-3/faa3592d2fc203d6c74b9a5f601058a1/transformed/jetified-emoji2-1.2.0/AndroidManifest.xml:29:13-31:52
+117                android:name="androidx.emoji2.text.EmojiCompatInitializer"
+117-->[androidx.emoji2:emoji2:1.2.0] /Users/lebackyard/.gradle/caches/transforms-3/faa3592d2fc203d6c74b9a5f601058a1/transformed/jetified-emoji2-1.2.0/AndroidManifest.xml:30:17-75
+118                android:value="androidx.startup" />
+118-->[androidx.emoji2:emoji2:1.2.0] /Users/lebackyard/.gradle/caches/transforms-3/faa3592d2fc203d6c74b9a5f601058a1/transformed/jetified-emoji2-1.2.0/AndroidManifest.xml:31:17-49
+119            <meta-data
+119-->[androidx.lifecycle:lifecycle-process:2.4.1] /Users/lebackyard/.gradle/caches/transforms-3/71b91ea8216105cda74b0317da307340/transformed/jetified-lifecycle-process-2.4.1/AndroidManifest.xml:31:13-33:52
+120                android:name="androidx.lifecycle.ProcessLifecycleInitializer"
+120-->[androidx.lifecycle:lifecycle-process:2.4.1] /Users/lebackyard/.gradle/caches/transforms-3/71b91ea8216105cda74b0317da307340/transformed/jetified-lifecycle-process-2.4.1/AndroidManifest.xml:32:17-78
+121                android:value="androidx.startup" />
+121-->[androidx.lifecycle:lifecycle-process:2.4.1] /Users/lebackyard/.gradle/caches/transforms-3/71b91ea8216105cda74b0317da307340/transformed/jetified-lifecycle-process-2.4.1/AndroidManifest.xml:33:17-49
+122        </provider>
+123
+124        <meta-data
+124-->[com.facebook.soloader:soloader:0.10.5] /Users/lebackyard/.gradle/caches/transforms-3/03d018e18e7118763cc731de8f689ba0/transformed/jetified-soloader-0.10.5/AndroidManifest.xml:12:9-14:37
+125            android:name="com.facebook.soloader.enabled"
+125-->[com.facebook.soloader:soloader:0.10.5] /Users/lebackyard/.gradle/caches/transforms-3/03d018e18e7118763cc731de8f689ba0/transformed/jetified-soloader-0.10.5/AndroidManifest.xml:13:13-57
+126            android:value="false" />
+126-->[com.facebook.soloader:soloader:0.10.5] /Users/lebackyard/.gradle/caches/transforms-3/03d018e18e7118763cc731de8f689ba0/transformed/jetified-soloader-0.10.5/AndroidManifest.xml:14:13-34
+127
+128        <activity
+128-->[com.jakewharton:process-phoenix:2.1.2] /Users/lebackyard/.gradle/caches/transforms-3/815818597bb67f9f399e718d28277eef/transformed/jetified-process-phoenix-2.1.2/AndroidManifest.xml:8:9-12:75
+129            android:name="com.jakewharton.processphoenix.ProcessPhoenix"
+129-->[com.jakewharton:process-phoenix:2.1.2] /Users/lebackyard/.gradle/caches/transforms-3/815818597bb67f9f399e718d28277eef/transformed/jetified-process-phoenix-2.1.2/AndroidManifest.xml:9:13-73
+130            android:exported="false"
+130-->[com.jakewharton:process-phoenix:2.1.2] /Users/lebackyard/.gradle/caches/transforms-3/815818597bb67f9f399e718d28277eef/transformed/jetified-process-phoenix-2.1.2/AndroidManifest.xml:10:13-37
+131            android:process=":phoenix"
+131-->[com.jakewharton:process-phoenix:2.1.2] /Users/lebackyard/.gradle/caches/transforms-3/815818597bb67f9f399e718d28277eef/transformed/jetified-process-phoenix-2.1.2/AndroidManifest.xml:11:13-39
+132            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+132-->[com.jakewharton:process-phoenix:2.1.2] /Users/lebackyard/.gradle/caches/transforms-3/815818597bb67f9f399e718d28277eef/transformed/jetified-process-phoenix-2.1.2/AndroidManifest.xml:12:13-72
+133    </application>
+134
+135</manifest>
